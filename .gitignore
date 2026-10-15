@@ -1,0 +1,22 @@
+# 环境变量与密钥（含 API Key，严禁提交）
+.env
+
+# IDE 配置
+.idea/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 运行时数据库与向量库（含学情/答题数据）
+chroma_db/
+data/chroma_db/
+data/*.db
+data/*.sqlite*
+
+# 测试与示例数据
+test.docx
+data/raw/
+
+# 题库数据文件
+seed_questions.xlsx
